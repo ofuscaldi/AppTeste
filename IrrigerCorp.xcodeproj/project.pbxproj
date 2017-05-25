@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99CC0FC31ED751FB006085AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CC0FC21ED751FB006085AE /* AppDelegate.swift */; };
+		99CC0FC51ED751FB006085AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CC0FC41ED751FB006085AE /* ViewController.swift */; };
+		99CC0FC81ED751FB006085AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CC0FC61ED751FB006085AE /* Main.storyboard */; };
+		99CC0FCB1ED751FB006085AE /* IrrigerCorp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99CC0FC91ED751FB006085AE /* IrrigerCorp.xcdatamodeld */; };
+		99CC0FCD1ED751FB006085AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CC0FCC1ED751FB006085AE /* Assets.xcassets */; };
+		99CC0FD01ED751FB006085AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CC0FCE1ED751FB006085AE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99CC0FBF1ED751FB006085AE /* IrrigerCorp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrrigerCorp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CC0FC21ED751FB006085AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99CC0FC41ED751FB006085AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99CC0FC71ED751FB006085AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99CC0FCA1ED751FB006085AE /* IrrigerCorp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IrrigerCorp.xcdatamodel; sourceTree = "<group>"; };
+		99CC0FCC1ED751FB006085AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99CC0FCF1ED751FB006085AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99CC0FD11ED751FB006085AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99CC0FBC1ED751FB006085AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99CC0FB61ED751FB006085AE = {
+			isa = PBXGroup;
+			children = (
+				99CC0FC11ED751FB006085AE /* IrrigerCorp */,
+				99CC0FC01ED751FB006085AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99CC0FC01ED751FB006085AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99CC0FBF1ED751FB006085AE /* IrrigerCorp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99CC0FC11ED751FB006085AE /* IrrigerCorp */ = {
+			isa = PBXGroup;
+			children = (
+				99CC0FC21ED751FB006085AE /* AppDelegate.swift */,
+				99CC0FC41ED751FB006085AE /* ViewController.swift */,
+				99CC0FC61ED751FB006085AE /* Main.storyboard */,
+				99CC0FCC1ED751FB006085AE /* Assets.xcassets */,
+				99CC0FCE1ED751FB006085AE /* LaunchScreen.storyboard */,
+				99CC0FD11ED751FB006085AE /* Info.plist */,
+				99CC0FC91ED751FB006085AE /* IrrigerCorp.xcdatamodeld */,
+			);
+			path = IrrigerCorp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99CC0FBE1ED751FB006085AE /* IrrigerCorp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CC0FD41ED751FB006085AE /* Build configuration list for PBXNativeTarget "IrrigerCorp" */;
+			buildPhases = (
+				99CC0FBB1ED751FB006085AE /* Sources */,
+				99CC0FBC1ED751FB006085AE /* Frameworks */,
+				99CC0FBD1ED751FB006085AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IrrigerCorp;
+			productName = IrrigerCorp;
+			productReference = 99CC0FBF1ED751FB006085AE /* IrrigerCorp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99CC0FB71ED751FB006085AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = std1;
+				TargetAttributes = {
+					99CC0FBE1ED751FB006085AE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 625ETFS986;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 99CC0FBA1ED751FB006085AE /* Build configuration list for PBXProject "IrrigerCorp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99CC0FB61ED751FB006085AE;
+			productRefGroup = 99CC0FC01ED751FB006085AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99CC0FBE1ED751FB006085AE /* IrrigerCorp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99CC0FBD1ED751FB006085AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CC0FD01ED751FB006085AE /* LaunchScreen.storyboard in Resources */,
+				99CC0FCD1ED751FB006085AE /* Assets.xcassets in Resources */,
+				99CC0FC81ED751FB006085AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99CC0FBB1ED751FB006085AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CC0FCB1ED751FB006085AE /* IrrigerCorp.xcdatamodeld in Sources */,
+				99CC0FC51ED751FB006085AE /* ViewController.swift in Sources */,
+				99CC0FC31ED751FB006085AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99CC0FC61ED751FB006085AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CC0FC71ED751FB006085AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99CC0FCE1ED751FB006085AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CC0FCF1ED751FB006085AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99CC0FD21ED751FB006085AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99CC0FD31ED751FB006085AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99CC0FD51ED751FB006085AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 625ETFS986;
+				INFOPLIST_FILE = IrrigerCorp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = std1.IrrigerCorp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		99CC0FD61ED751FB006085AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 625ETFS986;
+				INFOPLIST_FILE = IrrigerCorp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = std1.IrrigerCorp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99CC0FBA1ED751FB006085AE /* Build configuration list for PBXProject "IrrigerCorp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CC0FD21ED751FB006085AE /* Debug */,
+				99CC0FD31ED751FB006085AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CC0FD41ED751FB006085AE /* Build configuration list for PBXNativeTarget "IrrigerCorp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CC0FD51ED751FB006085AE /* Debug */,
+				99CC0FD61ED751FB006085AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99CC0FC91ED751FB006085AE /* IrrigerCorp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99CC0FCA1ED751FB006085AE /* IrrigerCorp.xcdatamodel */,
+			);
+			currentVersion = 99CC0FCA1ED751FB006085AE /* IrrigerCorp.xcdatamodel */;
+			path = IrrigerCorp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99CC0FB71ED751FB006085AE /* Project object */;
+}
