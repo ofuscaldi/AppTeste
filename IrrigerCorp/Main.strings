@@ -1,0 +1,144 @@
+
+/* Class = "UITabBarItem"; title = "Relatórios"; ObjectID = "0aA-9o-jRO"; */
+"0aA-9o-jRO.title" = "RELATÓRIOS";
+
+/* Class = "UIBarButtonItem"; title = "            "; ObjectID = "2p8-ET-fza"; */
+"2p8-ET-fza.title" = "            ";
+
+/* Class = "UILabel"; text = "PRÓXIMO"; ObjectID = "3Vh-UY-JtR"; */
+"3Vh-UY-JtR.text" = "PRÓXIMO";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "3mR-lI-N77"; */
+"3mR-lI-N77.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Entrar"; ObjectID = "4ma-A7-t34"; */
+"4ma-A7-t34.normalTitle" = "Entrar";
+
+/* Class = "UITabBarItem"; title = "Fazendas"; ObjectID = "58s-Or-ftg"; */
+"58s-Or-ftg.title" = "FAZENDAS";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "5Y6-85-Xt4"; */
+"5Y6-85-Xt4.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = "            "; ObjectID = "72f-xF-Her"; */
+"72f-xF-Her.title" = "            ";
+
+/* Class = "UIButton"; normalTitle = "Salvar Observação"; ObjectID = "7Cr-0l-g4f"; */
+"7Cr-0l-g4f.normalTitle" = "Salvar Observação";
+
+/* Class = "UILabel"; text = "Localizando fazendas ao seu alcance..."; ObjectID = "8OS-Ln-Vu1"; */
+"8OS-Ln-Vu1.text" = "Localizando fazendas ao seu alcance...";
+
+/* Class = "UILabel"; text = "ENCERRAR"; ObjectID = "Aw3-gu-Sg6"; */
+"Aw3-gu-Sg6.text" = "ENCERRAR";
+
+/* Class = "UILabel"; text = "Iniciar"; ObjectID = "BSl-Zf-k8X"; */
+"BSl-Zf-k8X.text" = "INICIAR";
+
+/* Class = "UILabel"; text = "Nome da Fazenda"; ObjectID = "DBG-tn-Rwl"; */
+"DBG-tn-Rwl.text" = "Nome da Fazenda";
+
+/* Class = "UILabel"; text = "Tipo de Visita"; ObjectID = "DMN-Bq-G2B"; */
+"DMN-Bq-G2B.text" = "Tipo de Visita";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Gv8-lN-RQz"; */
+"Gv8-lN-RQz.title" = " ";
+
+/* Class = "UILabel"; text = "Acompanhamento"; ObjectID = "GvU-aM-5S1"; */
+"GvU-aM-5S1.text" = "Acompanhamento";
+
+/* Class = "UILabel"; text = "Faça seu Login"; ObjectID = "HOx-Sh-bur"; */
+"HOx-Sh-bur.text" = "Faça seu Login";
+
+/* Class = "UILabel"; text = "Nome da Fazenda"; ObjectID = "HUM-bX-Jeu"; */
+"HUM-bX-Jeu.text" = "Nome da Fazenda";
+
+/* Class = "UITextField"; placeholder = "Categoria"; ObjectID = "KXD-eP-WCI"; */
+"KXD-eP-WCI.placeholder" = "Categoria";
+
+/* Class = "UILabel"; text = "PRÓXIMO"; ObjectID = "Pf2-tm-xVb"; */
+"Pf2-tm-xVb.text" = "PRÓXIMO";
+
+/* Class = "UILabel"; text = "Visita"; ObjectID = "QI4-se-dYL"; */
+"QI4-se-dYL.text" = "Visita";
+
+/* Class = "UIBarButtonItem"; title = "            "; ObjectID = "QJU-a8-V4h"; */
+"QJU-a8-V4h.title" = "            ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "REb-sq-Igc"; */
+"REb-sq-Igc.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Observações..."; ObjectID = "RXy-cJ-uBZ"; */
+"RXy-cJ-uBZ.placeholder" = "Observações...";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Rk8-Q2-IDW"; */
+"Rk8-Q2-IDW.title" = " ";
+
+/* Class = "UILabel"; text = "Observações"; ObjectID = "SnX-YV-F7W"; */
+"SnX-YV-F7W.text" = "Observações";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "T2Q-EY-M4G"; */
+"T2Q-EY-M4G.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TvV-FW-psD"; */
+"TvV-FW-psD.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UQu-kW-wYV"; */
+"UQu-kW-wYV.text" = "Label";
+
+/* Class = "UILabel"; text = "Cidade da Fazenda"; ObjectID = "aAT-KQ-kKK"; */
+"aAT-KQ-kKK.text" = "Cidade da Fazenda";
+
+/* Class = "UILabel"; text = "Visita"; ObjectID = "dzr-k6-BPV"; */
+"dzr-k6-BPV.text" = "Visita";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "f9x-8F-ukK"; */
+"f9x-8F-ukK.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = "            "; ObjectID = "hhn-nA-8Iv"; */
+"hhn-nA-8Iv.title" = "            ";
+
+/* Class = "UILabel"; text = "Visita"; ObjectID = "ibG-Sa-zw6"; */
+"ibG-Sa-zw6.text" = "Visita";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "j9j-Mz-K6L"; */
+"j9j-Mz-K6L.title" = " ";
+
+/* Class = "UILabel"; text = "Fazenda Dois Irmaos"; ObjectID = "kIG-3b-c58"; */
+"kIG-3b-c58.text" = "Fazenda Dois Irmaos";
+
+/* Class = "UILabel"; text = "Implantação"; ObjectID = "kbt-5k-x0A"; */
+"kbt-5k-x0A.text" = "Implantação";
+
+/* Class = "UITextField"; placeholder = "Senha"; ObjectID = "m53-ee-gMv"; */
+"m53-ee-gMv.placeholder" = "Senha";
+
+/* Class = "UIBarButtonItem"; title = "            "; ObjectID = "mF5-0i-Zif"; */
+"mF5-0i-Zif.title" = "            ";
+
+/* Class = "UILabel"; text = "PRÓXIMO"; ObjectID = "q6W-vK-CjX"; */
+"q6W-vK-CjX.text" = "PRÓXIMO";
+
+/* Class = "UIBarButtonItem"; title = "            "; ObjectID = "qvL-8P-UTN"; */
+"qvL-8P-UTN.title" = "            ";
+
+/* Class = "UILabel"; text = "Cidade da Fazenda"; ObjectID = "sZd-FA-IAa"; */
+"sZd-FA-IAa.text" = "Cidade da Fazenda";
+
+/* Class = "UILabel"; text = "Fazenda Teste [STD1]"; ObjectID = "voL-N1-O8d"; */
+"voL-N1-O8d.text" = "Fazenda Teste [STD1]";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xJe-dz-h3a"; */
+"xJe-dz-h3a.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "xQ2-eq-O8X"; */
+"xQ2-eq-O8X.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = "            "; ObjectID = "xbL-rq-SiM"; */
+"xbL-rq-SiM.title" = "            ";
+
+/* Class = "UILabel"; text = "Detalhamento"; ObjectID = "xwp-W1-CLG"; */
+"xwp-W1-CLG.text" = "Detalhamento";
+
+/* Class = "UITextField"; placeholder = "Selecione uma observação"; ObjectID = "zdw-og-Ca6"; */
+"zdw-og-Ca6.placeholder" = "Selecione uma observação";
