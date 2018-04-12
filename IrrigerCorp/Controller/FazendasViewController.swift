@@ -27,13 +27,15 @@ class FazendasViewController: UIViewController {
     
     var fazendas: Results<Fazenda>!
     
+    let remoteDatabase = RemoteDatabase()
+    
     let urls = URLs()
     
     var currentLocation: CLLocation!
     var locManager = CLLocationManager()
     
     var fazendasProximas = [[String:String]]()
-    var todasFazendas = [[String:String]]()
+    var todasFazendas: [Fazenda] = []
     
     var idFazenda: String!
     var latitude: String!
@@ -65,47 +67,17 @@ class FazendasViewController: UIViewController {
     }
     
     func loadData() {
-        
-        let getFazendas = urls.getFazendasUrl()
-        
-        Alamofire.request(getFazendas, method: .get).validate().responseJSON() { response in
-            switch response.result {
-            case .success:
-                if let value = response.result.value {
-                    let json = JSON(value)
-                    let data = json["data"].arrayValue
-                    
-                    for fazendas in data {
-                        var temp = [String:String]()
-                        temp["latitude"] = fazendas["latitude"].stringValue
-                        temp["longitude"] = fazendas["longitude"].stringValue
-                        temp["cidade"] = fazendas["cidade"].stringValue
-                        temp["estado"] = fazendas["estado"].stringValue
-                        temp["nome"] = fazendas["nome"].stringValue
-                        temp["idFazenda"] = fazendas["idFazenda"].stringValue
-                        
-                        self.todasFazendas.append(temp)
-                    }
-                }
-                UserDefaults.standard.set(self.todasFazendas, forKey: "todasFazendas")
+        remoteDatabase.getFazendas { (arrFazendas) in
+            if let arrayFazendas = arrFazendas {
+                self.todasFazendas = arrayFazendas
                 self.carregarFazendasProximas(fazendas: self.todasFazendas)
-                
-            case .failure:
-                let todasFazendas = UserDefaults.standard.object(forKey: "todasFazendas") as? [[String:String]] ?? [[String:String]]()
-                if todasFazendas.count > 0 {
-                    self.carregarFazendasProximas(fazendas: todasFazendas)
-                } else {
-                    let alert = UIAlertController(title: "Sem Conexão", message: "Por favor, conecte-se à uma rede para buscar as fazendas próximas.", preferredStyle: .alert)
-                    alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: { (alert) in
-                        self.loadData()
-                    }))
-                    self.present(alert, animated: true, completion: nil)
-                }
             }
         }
+        
+
     }
     
-    func carregarFazendasProximas(fazendas: [[String:String]]) {
+    func carregarFazendasProximas(fazendas: [Fazenda]) {
         if( CLLocationManager.authorizationStatus() == CLAuthorizationStatus.authorizedWhenInUse ||
             CLLocationManager.authorizationStatus() == CLAuthorizationStatus.authorizedAlways){
             
@@ -113,11 +85,11 @@ class FazendasViewController: UIViewController {
             
             for fazenda in fazendas {
                 //Latitude
-                let latitude = fazenda["latitude"]!
+                let latitude = fazenda.latitude!
                 let doubleLatitude = Double(latitude)
                 
                 //Longitude
-                let longitude = fazenda["longitude"]!
+                let longitude = fazenda.longitude!
                 let doubleLongitude = Double(longitude)
                 
                 if doubleLongitude != nil && doubleLatitude != nil {

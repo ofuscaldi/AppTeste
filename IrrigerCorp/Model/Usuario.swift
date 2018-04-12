@@ -13,7 +13,7 @@ class Usuario {
     var idUsuario: String
     var tipoUsuario: String
     
-    init(idUsuario: String, tipoUsuario: String) {
+    init (idUsuario: String, tipoUsuario: String) {
         self.idUsuario = idUsuario
         self.tipoUsuario = tipoUsuario
     }
