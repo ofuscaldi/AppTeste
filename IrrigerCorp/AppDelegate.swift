@@ -47,7 +47,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window?.rootViewController = vc
             window?.makeKeyAndVisible()
         }
-        UITabBarItem.appearance().setTitleTextAttributes([NSFontAttributeName: UIFont(name: "RobotoCondensed-Bold", size: 9)!], for: .normal)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.font: UIFont(name: "RobotoCondensed-Bold", size: 9)!], for: .normal)
         // Override point for customization after application launch.
         return true
     }

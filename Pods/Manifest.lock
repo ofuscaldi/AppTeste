@@ -1,35 +1,51 @@
 PODS:
-  - Alamofire (4.6.0)
+  - Alamofire (4.7.1)
   - ColorWithHex (3.0.1)
-  - Kingfisher (4.6.1)
-  - Realm (3.1.1):
-    - Realm/Headers (= 3.1.1)
-  - Realm/Headers (3.1.1)
-  - RealmSwift (3.1.1):
-    - Realm (= 3.1.1)
-  - SwiftyGif (4.0.0)
+  - Realm (3.3.2):
+    - Realm/Headers (= 3.3.2)
+  - Realm/Headers (3.3.2)
+  - RealmSwift (3.3.2):
+    - Realm (= 3.3.2)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SwiftyGif (4.1.0)
   - SwiftyJSON (4.0.0)
   - SWRevealViewController (2.3.0)
 
 DEPENDENCIES:
   - Alamofire
   - ColorWithHex
-  - Kingfisher
   - RealmSwift
+  - RxCocoa
+  - RxSwift
   - SwiftyGif
   - SwiftyJSON
   - SWRevealViewController (~> 2.3)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - ColorWithHex
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxSwift
+    - SwiftyGif
+    - SwiftyJSON
+    - SWRevealViewController
+
 SPEC CHECKSUMS:
-  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
   ColorWithHex: cdd9c504d8e6b71f5f39bbfab0d9143e6c65d841
-  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
-  Realm: 42d1c38a5b1bbcc828b48a7ce702cb86fc68adf4
-  RealmSwift: d31937ca6a6ee54acde64ec839523c0a3c04924b
-  SwiftyGif: 14c0e2dddb1b51da4919b68f7ad97a1c45785460
+  Realm: d927fbf66df5532cfafc08afb5f7e53ded37b894
+  RealmSwift: 4e903a494e05d866581d69ad6f7e7b879d446baf
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SwiftyGif: d36c6dfb52e2ca1e48fe349d225f50ec4123ec85
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
 
-PODFILE CHECKSUM: 68814868cd9dbcbf750718689bdece29bc2c81b5
+PODFILE CHECKSUM: c8d435c79034a862ddfec2e4ee4193d9fc68157f
 
-COCOAPODS: 1.4.0.beta.2
+COCOAPODS: 1.5.0
